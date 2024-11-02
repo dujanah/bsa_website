@@ -103,5 +103,27 @@
 }
 
 section {
+    margin-top: 0;
+    padding: 10vw;
     background-color: var(--white);
+    text-align: center;
+}
+
+.section-header {
+    margin-top: 0;
+    color: var(--green);
+    font-size: 8vw;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+}
+
+footer {
+    padding: 3vw;
+    background-color: var(--secondary-color-light);
+    text-align: center;
+}
+
+#credits {
+    text
 }

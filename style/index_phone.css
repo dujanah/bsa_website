@@ -23,6 +23,7 @@
 @media (orientation: portrait) {
     #title-div {
         margin: 3vw;
+        padding-top: 4vw;
     }
 
     #header-logo {
@@ -31,7 +32,7 @@
 
     #header {
         margin-left: 1.5vw;
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     #header::after {
@@ -39,7 +40,7 @@
     }
 
     #form-link {
-        font-size: 4vw;
+        font-size: 5vw;
         border-width: 1px;
         padding: 1.5vw 3vw;
     }
@@ -64,8 +65,8 @@
     }
 
     #nav-div {
-        margin-top: 4vw;
-        margin-bottom: -3vw;
+        margin-top: 7.5vw;
+        margin-bottom: -1.5vw;
 
         flex-direction: row;
         justify-content: space-evenly;
@@ -76,14 +77,15 @@
         background-color: var(--secondary-color);
         color: var(--green);
         border: solid 2px var(--secondary-color-light);
-        border-radius: 15px;
-        padding: 1vw 4.5vw;
+        border-radius: 25px;
+        padding: 1vw 3.5vw;
+        font-family: 'Afacad Flux', sans-serif;
         font-size: 4vw;
     }
 
     #intro-image {
         height: auto;
-        width: 100vw;
+        width: 104vw;
         margin: auto;
     }
 }
