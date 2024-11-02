@@ -11,6 +11,8 @@
 
     background-color: var(--green);
     color: white;
+    
+    z-index: 1;
 }
 
 #title-div {
@@ -50,7 +52,6 @@
     justify-content: space-between;
 
     padding-left: 4vw;
-    padding-top: 2vw;
     padding-bottom: 0;
 
     font-family: "Bebas Neue", sans-serif;
@@ -100,6 +101,7 @@
     margin-left: -10vw;
     margin-top: -3vw;
     transition: all 0.7s ease;
+    z-index: 0;
 }
 
 section {
@@ -107,6 +109,11 @@ section {
     padding: 10vw;
     background-color: var(--white);
     text-align: center;
+    color: black;
+}
+
+#nav-section {
+    padding: 5vw;
 }
 
 .section-header {
@@ -122,8 +129,4 @@ footer {
     padding: 3vw;
     background-color: var(--secondary-color-light);
     text-align: center;
-}
-
-#credits {
-    text
 }
