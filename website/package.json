@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.mjs",
-  "scripts": {
+  "homepage": "https://dujanah.github.io/bsa-website",
+  "scripts": {"predeploy": "npm run prod",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "node app.mjs"
   },
@@ -19,6 +21,7 @@
     "nedb": "^1.8.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "jshint": "^2.13.6",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.3"
