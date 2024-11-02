@@ -109,7 +109,7 @@
     transition: all 0.7s ease;
 }
 
-section:not(#nav-section-container) {
+section:not(#nav-section) {
     margin: 0;
     padding: 0vw 10vw 5vw 10vw;
     background-color: var(--white);
