@@ -242,13 +242,14 @@ h3 {
 footer {
     padding: 1vw;
     text-align: center;
-}
-
-footer {
+    
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 4vw;
     margin: 0;
+
+    flex: 1;
 }
 
 .nav-logo {

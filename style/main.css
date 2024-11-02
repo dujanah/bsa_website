@@ -7,5 +7,9 @@ body {
     
     font-family: "Afacad Flux", serif;
     color: white;
-    background-color: var(--green);
+    background-color: var(--secondary-color-light);
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
