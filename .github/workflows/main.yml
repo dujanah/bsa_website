@@ -1,0 +1,47 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Replace with your default branch if different
+  workflow_dispatch:  # Allows manual trigger from the Actions tab
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      # Step 1: Build the site if necessary
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'  # Specify the Node.js version you require
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./website  # Change this to your project folder
+
+      - name: Build static files
+        run: npm run prod
+        working-directory: ./website # Change this to your project folder
+
+      # Step 2: Upload the static files as an artifact
+      - name: Upload artifact for deployment
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./website/static  # Replace with the path to your static files
+
+  # Step 3: Deploy the artifact to GitHub Pages (only if push to main)
+  deploy:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'  # Only deploy if this is a push to main
+
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub
