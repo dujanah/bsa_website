@@ -1,4 +1,10 @@
+@import "styles.css";
+
 @media (orientation: landscape){
+    #header::after {
+        content: " Bangladeshi Student's Association";
+    }
+
     #form-link::before {
         content: "General Member ";
     }
@@ -15,12 +21,27 @@
 }
 
 @media (orientation: portrait) {
-    #header {
-        font-size: 3vw;
+    #title-div {
+        margin: 3vw;
     }
-    
+
+    #header-logo {
+        width: 10vw;
+    }
+
+    #header {
+        margin-left: 1.5vw;
+        font-size: 4vw;
+    }
+
+    #header::after {
+        content: " BSA";
+    }
+
     #form-link {
-        font-size: 2vw;
+        font-size: 4vw;
+        border-width: 1px;
+        padding: 1.5vw 3vw;
     }
 
     #intro-div {
@@ -39,7 +60,7 @@
     #intro-title {
         padding-top: 3vw;
         text-align: center;
-        font-size: 8vw;
+        font-size: 14vw;
     }
 
     #nav-div {
@@ -54,8 +75,10 @@
     .nav {
         background-color: var(--secondary-color);
         color: var(--green);
+        border: solid 2px var(--secondary-color-light);
         border-radius: 30px;
-        padding: 1vw 2vw;
+        padding: 1vw 3vw;
+        font-size: 4vw;
     }
 
     #intro-image {
