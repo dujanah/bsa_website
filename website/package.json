@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.mjs",
   "homepage": "https://dujanah.github.io/bsa-website",
-  "scripts": {"predeploy": "npm run prod",
+  "scripts": {
+    "predeploy": "npm run prod",
     "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "node app.mjs"
