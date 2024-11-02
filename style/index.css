@@ -64,7 +64,7 @@
 
 #intro-title {
     font-weight: 400;
-    font-size: 5.2vw;
+    font-size: 5vw;
 }
 
 #celebrate {
@@ -78,7 +78,7 @@
     display: flex;
     flex-direction: column;
 
-    font-size: 3.1vw;
+    font-size: 2.7vw;
 }
 
 .nav {
@@ -92,7 +92,7 @@
 
 .nav:hover {
     text-decoration: underline;
-    font-size: 3.3vw;
+    font-size: 3.1vw;
     color: var(--secondary-color-light);
 }
 
@@ -101,32 +101,108 @@
     margin-left: -10vw;
     margin-top: -3vw;
     transition: all 0.7s ease;
-    z-index: 0;
+    z-index: -1;
 }
 
 section {
-    margin-top: 0;
-    padding: 10vw;
+    margin: 0;
+    padding: 0vw 10vw 5vw 10vw;
     background-color: var(--white);
     text-align: center;
     color: black;
 }
 
 #nav-section {
-    padding: 5vw;
+    padding: 1vw;
+}
+
+section > p {
+    font-size: 2vw;
+}
+
+#nav-section-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 3vw;
+    padding-right: 7vw;
+    gap: 2vw;
+    font-weight: 400;
+    color: var(--green);
+    margin: 0;
+}
+
+.section-nav {
+    transition: all 0.2s ease;
+}
+
+.section-nav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.section-nav.selected {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
 }
 
 .section-header {
-    margin-top: 0;
+    margin: 0 auto;
     color: var(--green);
-    font-size: 8vw;
+    font-size: 5vw;
 
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 100;
 }
 
+h3 {
+    font-size: 3vw;
+    text-align: left;
+    color: rgba(41, 100, 41, 0.651);
+}
+
+.events-img {
+    margin: auto;
+    height: 30vw;
+    width: 60vw;
+    background-color: black;
+    background-repeat: none;
+    background-size: cover;
+    border: solid 2px black;
+    border-radius: 50px;
+    margin-bottom: 5.5vw;
+}
+
+.event-title {
+    color: darkgreen;
+}
+
+.upcoming {
+    font-size: 3vw;
+    margin-bottom: 0.5vw;
+}
+
+.date {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
 footer {
-    padding: 3vw;
+    padding: 1vw;
     background-color: var(--secondary-color-light);
     text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    margin: 0;
+}
+
+.nav-logo {
+    width: 2vw;
 }
