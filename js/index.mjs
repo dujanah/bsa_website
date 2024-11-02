@@ -11,8 +11,10 @@ const teamHeader = document.querySelector("#team-nav-2");
 const team = document.querySelector("#team");
 
 document.querySelector("#team-nav").addEventListener("mouseenter", function() {
-    document.querySelector("#intro-image").style.height = "36.5vw";
-    document.querySelector("#intro-image").style.paddingTop = "0.5vw";
+    if (window.matchMedia("(orientation: landscape)").matches){
+        document.querySelector("#intro-image").style.height = "36.5vw";
+        document.querySelector("#intro-image").style.paddingTop = "0.5vw";
+    }
 });
 
 document.querySelector("#team-nav").addEventListener("mouseleave", function() {

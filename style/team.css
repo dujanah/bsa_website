@@ -1,0 +1,89 @@
+@import "styles.css";
+
+.team-subheader {
+    font-size: 3vw;
+
+    background: linear-gradient(-180deg, var(--primary-color-one), var(--primary-color-light) 80%);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+
+.img {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+#p1 > .img {
+    background-image: url("/media/p1.jpg");
+}
+
+#p2 > .img {
+    background-image: url("/media/p2.jpg");
+}
+
+#vp > .img {
+    background-image: url("/media/vp.jpg");
+}
+
+#de1 > .img {
+    background-image: url("/media/de1.jpg");
+}
+
+#de2 > .img {
+    background-image: url("/media/de2.jpg");
+}
+
+#vpo > .img {
+    background-image: url("/media/vpo.jpg");
+}
+
+#do1 > .img {
+    background-image: url("/media/do1.jpg");
+}
+
+#do2 > .img {
+    background-image: url("/media/do2.jpg");
+}
+
+#gp > .img {
+    background-image: url("/media/gp.jpg");
+}
+
+#choreo > .img {
+    background-image: url("/media/choreo.jpg");
+}
+
+#dc2 > .img {
+    background-image: url("/media/dc2.jpg");
+}
+
+#dc1 > .img {
+    background-image: url("/media/dc1.jpg");
+}
+
+#df > .img {
+    background-image: url("/media/df.jpg");
+}
+
+#vpm > .img {
+    background-image: url("/media/vpm.jpg");
+}
+
+#dm > .img {
+    background-image: url("/media/dm.jpg");
+}
+
+#p2 > .img {
+    background-image: url("/media/p2.jpg");
+}
+
+.member > h3 {
+    margin-bottom: 0.5vw;
+}
+
+.member > p {
+    font-size: 1.5vw;
+}

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
-    --primary-color-one: #141619;
-    --primary-color-two: #2c2e3a;
+    --primary-color-one: #0f946a;
+    --primary-color-light: #2abe90;
     --secondary-color: #b2c9c4;
     --secondary-color-light: #dbe6e3;
     --white: #f8f8f8;
-    --green: rgb(3, 83, 57);
+    --green: #035339;
 }
