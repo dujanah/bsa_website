@@ -1,4 +1,28 @@
+@media (orientation: landscape){
+    #form-link::before {
+        content: "General Member ";
+    }
+
+    #about-nav::after {
+        content: " THE CLUB AND OUR MISSION";
+    }
+    #events-nav::before {
+        content: "UPCOMING BSA ";
+    }
+    #team-nav::before {
+        content: "MEET THE ";
+    }
+}
+
 @media (orientation: portrait) {
+    #header {
+        font-size: 3vw;
+    }
+    
+    #form-link {
+        font-size: 2vw;
+    }
+
     #intro-div {
         margin: 0;
         padding: 0;
@@ -19,11 +43,19 @@
     }
 
     #nav-div {
+        margin-top: 4vw;
+        margin-bottom: -3vw;
+
         flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .nav {
-        text-align: center;
+        background-color: var(--secondary-color);
+        color: var(--green);
+        border-radius: 30px;
+        padding: 1vw 2vw;
     }
 
     #intro-image {
