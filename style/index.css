@@ -115,6 +115,11 @@ section {
     background-color: var(--white);
     text-align: center;
     color: black;
+    
+}
+
+section:not(#nav-section) {
+    min-height: 100vh;
 }
 
 #nav-section {
