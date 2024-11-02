@@ -1,0 +1,107 @@
+@import "styles.css";
+
+#header-div {
+    padding: 2vw 3vw;
+    margin-bottom: 0.5vw;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    align-items: center;
+
+    background-color: var(--green);
+    color: white;
+}
+
+#title-div {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+#header {
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#header-logo {
+    width: 5vw;
+    margin-right: 1vw;
+}
+
+#form-link {
+    text-decoration: none;
+    font-size: 1.7vw;
+    color: var(--white);
+    border: solid 2px var(--white);
+    border-radius: 50px;
+    padding: 0.8vw 1.3vw;
+    transition: all 0.2s ease;
+}
+
+#form-link:hover {
+    background-color: var(--white);
+    color: var(--green);
+}
+
+#intro-div {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 0;
+
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#intro {
+    margin-right: -10vw;
+    z-index: 1;
+}
+
+#intro-title {
+    font-weight: 400;
+    font-size: 5.2vw;
+}
+
+#celebrate {
+    background: linear-gradient(90deg, #ffa600, #ff0000 70%);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+
+#nav-div {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 3.1vw;
+}
+
+.nav {
+    padding: 1vw 0;
+
+    text-decoration: none;
+    color: var(--secondary-color);
+
+    transition: all 0.2s ease;
+}
+
+.nav:hover {
+    text-decoration: underline;
+    font-size: 3.3vw;
+    color: var(--secondary-color-light);
+}
+
+#intro-image {
+    height: 35vw;
+    margin-left: -10vw;
+    margin-top: -3vw;
+    transition: all 0.7s ease;
+}
+
+section {
+    background-color: white;
+}
