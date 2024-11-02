@@ -2,7 +2,9 @@
 
 #header-div {
     padding: 2vw 3vw;
-    margin-bottom: 0.5vw;
+    
+    margin: 0;
+    padding: 2vw;
 
     display: flex;
     justify-content: space-between;
@@ -12,7 +14,7 @@
     background-color: var(--green);
     color: white;
     
-    z-index: 1;
+    z-index: 100;
 }
 
 #title-div {
@@ -40,6 +42,7 @@
     border-radius: 50px;
     padding: 0.8vw 1.3vw;
     transition: all 0.2s ease;
+    z-index: 101;
 }
 
 #form-link:hover {
@@ -48,6 +51,8 @@
 }
 
 #intro-div {
+    background-color: var(--green);
+
     display: flex;
     justify-content: space-between;
 
@@ -99,9 +104,8 @@
 #intro-image {
     height: 35vw;
     margin-left: -10vw;
-    margin-top: -3vw;
+    padding-top: 2vw;
     transition: all 0.7s ease;
-    z-index: -1;
 }
 
 section {

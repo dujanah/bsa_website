@@ -20,7 +20,11 @@
     }
 }
 
-@media (orientation: portrait) {
+@media (orientation: portrait) { 
+    body {
+        background-color: var(--secondary-color-light);
+    }
+
     #header-div {
         padding-top: 5vw;
     }
@@ -94,6 +98,7 @@
         height: auto;
         width: 100vw;
         margin: auto;
+        z-index: 0;
     }
 
     .section-header {
