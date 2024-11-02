@@ -76,14 +76,14 @@
         background-color: var(--secondary-color);
         color: var(--green);
         border: solid 2px var(--secondary-color-light);
-        border-radius: 30px;
-        padding: 1vw 3vw;
+        border-radius: 15px;
+        padding: 1vw 4.5vw;
         font-size: 4vw;
     }
 
     #intro-image {
         height: auto;
-        width: 80vw;
+        width: 100vw;
         margin: auto;
     }
 }
