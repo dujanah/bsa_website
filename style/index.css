@@ -109,12 +109,16 @@
     transition: all 0.7s ease;
 }
 
-section:not(#nav-section) {
+section {
     margin: 0;
     padding: 0vw 10vw 5vw 10vw;
     background-color: var(--white);
     text-align: center;
     color: black;
+    
+}
+
+section:not(#nav-section) {
     min-height: 100vh;
 }
 
