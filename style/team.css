@@ -17,67 +17,67 @@
 }
 
 #p1 > .img {
-    background-image: url("/media/p1.jpg");
+    background-image: url("../media/p1.jpg");
 }
 
 #p2 > .img {
-    background-image: url("/media/p2.jpg");
+    background-image: url("../media/p2.jpg");
 }
 
 #vp > .img {
-    background-image: url("/media/vp.jpg");
+    background-image: url("../media/vp.jpg");
 }
 
 #de1 > .img {
-    background-image: url("/media/de1.jpg");
+    background-image: url("../media/de1.jpg");
 }
 
 #de2 > .img {
-    background-image: url("/media/de2.jpg");
+    background-image: url("../media/de2.jpg");
 }
 
 #vpo > .img {
-    background-image: url("/media/vpo.jpg");
+    background-image: url("../media/vpo.jpg");
 }
 
 #do1 > .img {
-    background-image: url("/media/do1.jpg");
+    background-image: url("../media/do1.jpg");
 }
 
 #do2 > .img {
-    background-image: url("/media/do2.jpg");
+    background-image: url("../media/do2.jpg");
 }
 
 #gp > .img {
-    background-image: url("/media/gp.jpg");
+    background-image: url("../media/gp.jpg");
 }
 
 #choreo > .img {
-    background-image: url("/media/choreo.jpg");
+    background-image: url("../media/choreo.jpg");
 }
 
 #dc2 > .img {
-    background-image: url("/media/dc2.jpg");
+    background-image: url("../media/dc2.jpg");
 }
 
 #dc1 > .img {
-    background-image: url("/media/dc1.jpg");
+    background-image: url("../media/dc1.jpg");
 }
 
 #df > .img {
-    background-image: url("/media/df.jpg");
+    background-image: url("../media/df.jpg");
 }
 
 #vpm > .img {
-    background-image: url("/media/vpm.jpg");
+    background-image: url("../media/vpm.jpg");
 }
 
 #dm > .img {
-    background-image: url("/media/dm.jpg");
+    background-image: url("../media/dm.jpg");
 }
 
 #p2 > .img {
-    background-image: url("/media/p2.jpg");
+    background-image: url("../media/p2.jpg");
 }
 
 .member > h3 {
